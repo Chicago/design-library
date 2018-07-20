@@ -32,7 +32,7 @@ gulp.task(task, function (done) {
 
   stream
     .pipe(sourcemaps.init({ loadMaps: true }))
-    .pipe(uglify())
+    //.pipe(uglify())
     .on('error', gutil.log)
     .pipe(rename({
       suffix: '.min',

@@ -105,16 +105,38 @@ const accordion = behavior({
       let hash;
       
       try {
-        const url = new URL(window.location);
+        console.log('try')
+        const url = new URL(root.location);
+        console.log(url)
         hash = url.hash;
       } catch(error) {
-        hash = location.hash ? location.hash : null;
+        hash = root.location.hash ? root.location.hash : null;
       } 
 
       return hash.replace('#', '');
     };
 
-    const hash = getHash(window);
+  
+    debugger
+      const hash = getHash(window);
+      console.log(hash)
+      if (hash) {
+  
+        accordions.forEach((accordion) => {
+          const buttons = getAccordionButtons(accordion);
+  
+          for (var i = 0; i < buttons.length; i++) {
+            const button = buttons[i];
+            
+            if (button.getAttribute('aria-controls') === hash) {
+              toggleButton(button, true);
+              button.scrollIntoView();
+            }
+            console.log('here?')   
+            window.location.hash = '';
+          }
+        });
+      }
 
     window.addEventListener('hashchange', function handleHashChange(event) {
       const nextHash = getHash(window);
@@ -122,7 +144,7 @@ const accordion = behavior({
       if (!nextHash) {
         return;
       }
-      
+
       accordions.forEach((accordion) => {
         const buttons = getAccordionButtons(accordion);
 
@@ -130,10 +152,10 @@ const accordion = behavior({
           const button = buttons[i];
           
           if (button.getAttribute('aria-controls') === nextHash) {
-            button.click();
-            break;
+            toggleButton(button, true);
+            button.scrollIntoView();
           }
-          
+          console.log('here?')   
           window.location.hash = '';
         }
       });
