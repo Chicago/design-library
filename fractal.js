@@ -13,7 +13,7 @@ const context = {
   },
 };
 
-fractal.set('project.title', `U.S. Web Design System (v${pkg.version})`);
+fractal.set('project.title', `Chicago Design System (v${pkg.version})`);
 
 const components = fractal.components;
 components.set('ext', '.njk');
