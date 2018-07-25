@@ -9,7 +9,7 @@ npm-debug.log*
 coverage/
 
 # ignore the generated dist directory
-# dist/
+ dist/
 
 # ignore the Fractal build directory
 build/
