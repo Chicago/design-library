@@ -65,14 +65,6 @@
 
 @include font-face(
   'Sorts Mill Goudy',
-  '#{$font-path}/SortsMillGoudy-Italic',
-  400,
-  normal,
-  $file-formats: ttf
-);
-
-@include font-face(
-  'Sorts Mill Goudy',
   '#{$font-path}/SortsMillGoudy-Regular',
   400,
   normal,
@@ -89,23 +81,7 @@
 
 @include font-face(
   'Montserrat',
-  '#{$font-path}/Montserrat-BlackItalic',
-  900,
-  normal,
-  $file-formats: ttf
-);
-
-@include font-face(
-  'Montserrat',
   '#{$font-path}/Montserrat-Bold',
-  700,
-  normal,
-  $file-formats: ttf
-);
-
-@include font-face(
-  'Montserrat',
-  '#{$font-path}/Montserrat-BoldItalic',
   700,
   normal,
   $file-formats: ttf
@@ -121,32 +97,8 @@
 
 @include font-face(
   'Montserrat',
-  '#{$font-path}/Montserrat-ExtraBoldItalic',
-  800,
-  normal,
-  $file-formats: ttf
-);
-
-@include font-face(
-  'Montserrat',
   '#{$font-path}/Montserrat-ExtraLight',
   200,
-  normal,
-  $file-formats: ttf
-);
-
-@include font-face(
-  'Montserrat',
-  '#{$font-path}/Montserrat-ExtraLightItalic',
-  200,
-  normal,
-  $file-formats: ttf
-);
-
-@include font-face(
-  'Montserrat',
-  '#{$font-path}/Montserrat-Italic',
-  400,
   normal,
   $file-formats: ttf
 );
@@ -161,23 +113,7 @@
 
 @include font-face(
   'Montserrat',
-  '#{$font-path}/Montserrat-LightItalic',
-  300,
-  normal,
-  $file-formats: ttf
-);
-
-@include font-face(
-  'Montserrat',
   '#{$font-path}/Montserrat-Medium',
-  500,
-  normal,
-  $file-formats: ttf
-);
-
-@include font-face(
-  'Montserrat',
-  '#{$font-path}/Montserrat-MediumItalic',
   500,
   normal,
   $file-formats: ttf
@@ -201,16 +137,81 @@
 
 @include font-face(
   'Montserrat',
-  '#{$font-path}/Montserrat-SemiBoldItalic',
-  600,
+  '#{$font-path}/Montserrat-Thin',
+  100,
+  normal,
+  $file-formats: ttf
+);
+
+/*
+@include font-face(
+  'Sorts Mill Goudy',
+  '#{$font-path}/SortsMillGoudy-Italic',
+  400,
   normal,
   $file-formats: ttf
 );
 
 @include font-face(
   'Montserrat',
-  '#{$font-path}/Montserrat-Thin',
-  100,
+  '#{$font-path}/Montserrat-BlackItalic',
+  900,
+  normal,
+  $file-formats: ttf
+);
+
+@include font-face(
+  'Montserrat',
+  '#{$font-path}/Montserrat-BoldItalic',
+  700,
+  normal,
+  $file-formats: ttf
+);
+
+@include font-face(
+  'Montserrat',
+  '#{$font-path}/Montserrat-ExtraBoldItalic',
+  800,
+  normal,
+  $file-formats: ttf
+);
+
+@include font-face(
+  'Montserrat',
+  '#{$font-path}/Montserrat-ExtraLightItalic',
+  200,
+  normal,
+  $file-formats: ttf
+);
+
+@include font-face(
+  'Montserrat',
+  '#{$font-path}/Montserrat-LightItalic',
+  300,
+  normal,
+  $file-formats: ttf
+);
+
+@include font-face(
+  'Montserrat',
+  '#{$font-path}/Montserrat-MediumItalic',
+  500,
+  normal,
+  $file-formats: ttf
+);
+
+@include font-face(
+  'Montserrat',
+  '#{$font-path}/Montserrat-Italic',
+  400,
+  normal,
+  $file-formats: ttf
+);
+
+@include font-face(
+  'Montserrat',
+  '#{$font-path}/Montserrat-SemiBoldItalic',
+  600,
   normal,
   $file-formats: ttf
 );
@@ -222,4 +223,6 @@
   normal,
   $file-formats: ttf
 );
+*/
+
 /* stylelint-enable */
