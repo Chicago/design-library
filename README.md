@@ -4,7 +4,7 @@ It is meant to serve as a guide for city web products, and is open to contributi
 is completely open source and in the public domain under the [CC0 1.0 License](https://creativecommons.org/publicdomain/zero/1.0/).
 Any municipality or other organization is free to use, modify, and publish content using designs created for the Design Library.
 
-##Fractal
+## Fractal
 Fractal is used to publish the atomic design elements of the Chiago Design System. You will need to install the CDS Fractal fork in order to edit and preview your changes to the CDS pattern library. [Go here](https://fractal.build/guide) for more information on Fractal and [here](http://bradfrost.com/blog/post/atomic-web-design/) for more information on atomic design.
 
 1. If you haven't already, install npm. npm is a package manager for Node based projects. Below is a link to find the install method that coincides with your operating system:
